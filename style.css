@@ -287,6 +287,10 @@ a:hover {
     font-size: 32px;
 }
 
+#bloc-1-hero img {
+    width: 100px;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -301,11 +305,12 @@ a:hover {
     line-height: 44px;
 }
 
-.navbar-brand img {
-    max-height: 200px;
-    margin: 0 5px 0 0;
-    display: inline;
-}
+    .navbar-brand img {
+        height: 40px;
+        max-height: 200px;
+        margin: 0 5px 0 0;
+        display: inline;
+    }
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
@@ -677,7 +682,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -753,7 +758,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0,0,0, 0.6);
     padding: 40px 40px 40px 40px;
 }
 
@@ -822,7 +827,31 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+#bloc-2-services h2 {
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+blockquote {
+    font-style: italic;
+    border: none;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 20px;
+    color: #333333;
+}
+
+blockquote p {
+    border: none;
+    font-style: normal;
+}
+
+#bloc-4-portfolio h2 {
+    padding-left: 28%;
+    padding-right: 28%;
 }
 
 @media (max-width: 1024px) {
