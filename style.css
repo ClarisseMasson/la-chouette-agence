@@ -870,6 +870,22 @@ blockquote p {
     color: #333333 !important;
 }
 
+
+#bloc-0 img {
+    height: 40px;
+}
+
+
+#bloc-6 .tc-white {
+    color: white !important;
+}
+
+#bloc-6 p {
+    font-size: 18pt;
+    color: white !important;
+    max-width: 800px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
