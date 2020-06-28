@@ -786,7 +786,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF !important;
-    font-size: 24px;
+    font-size: 18pt;
 }
 
 .btn-atomic-tangerine:hover {
@@ -864,6 +864,9 @@ blockquote p {
 #bloc-8 li {
     font-size: 18px;
     line-height: 2em;
+}
+
+#bloc-8 a {
     color: #333333 !important;
 }
 
